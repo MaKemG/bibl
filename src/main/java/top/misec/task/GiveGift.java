@@ -176,7 +176,7 @@ public class GiveGift implements Task {
         String roomId;
         /* 直播间 uid 即 up 的 id*/
         String uid;
-        if (!config.getUpLive().equals("0")) {
+        if (!"0".equals(config.getUpLive())) {
             /* 获取指定up的id */
             uid = config.getUpLive();
             roomId = getRoomInfoOld(uid);
