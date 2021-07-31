@@ -173,6 +173,11 @@ java -jar /home/BILIBILI-HELPER.jar DEDEUSERID SESSDATA BILI_JCT SCKEY >> /var/l
 }
 ```
 
+
+**如果不知道自己的UA之类数据，以及看不懂每个值的含义，可以采用配置生成网页生成自己的配置，注意jar方式和docker方式运行无需填写cookies相关信息**
+
+**[点击进入配置自动生成页面](https://utils.misec.top/index)**
+
 **Windows/Linux 用户使用 jar 包时，`release`包中会包含一份`config.json`配置文件，只需将其和`BILIBILI-HELP.jar`放在同一目录即可，执行时优先加载外部配置文件**
 
 配置文件参数示意
